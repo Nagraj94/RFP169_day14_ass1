@@ -45,6 +45,10 @@ public class LinkedListMain {
         stack1.push(70);
         stack1.push(90);
         stack1.print();
+        System.out.println(" ");
+        System.out.println("stack pop operation");
+        stack1.pop();
+        stack1.print();
 
     }
 

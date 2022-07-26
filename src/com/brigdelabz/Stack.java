@@ -9,6 +9,9 @@ public class Stack {
     public void push(int data) {
         linkedList.addBack(data);
     }
+    public void pop(){
+        linkedList.pop();
+    }
     public void print(){
         linkedList.print();
     }
