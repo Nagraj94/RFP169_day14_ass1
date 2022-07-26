@@ -29,6 +29,11 @@ public class LinkedListMain {
         System.out.println("deleting element");
         linkedList1.pop();
         linkedList1.print();
+
+        System.out.println(" ");
+        System.out.println("delete from last");
+        linkedList1.remove();
+        linkedList1.print();
     }
 
 }

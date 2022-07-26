@@ -50,6 +50,16 @@ public class LinkedList {
       head = head.next;
       return deleteData;
    }
+   public int remove(){
+        int deleteData = tail.data;
+        Node temp = head;
+        while (temp.next != tail){
+            temp = temp.next;
+        }
+        temp.next = null;
+        temp = tail;
+        return deleteData;
+   }
     public void print(){
         Node temp = head;
         while (temp != null){
