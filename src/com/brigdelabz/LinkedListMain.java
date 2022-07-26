@@ -1,5 +1,7 @@
 package com.brigdelabz;
 
+
+
 public class LinkedListMain {
     public static void main(String[] args) {
         LinkedList linkedList1 = new LinkedList();
@@ -34,6 +36,16 @@ public class LinkedListMain {
         System.out.println("delete from last");
         linkedList1.remove();
         linkedList1.print();
+
+        System.out.println("");
+        System.out.println("stack operation");
+        Stack stack1 = new Stack();
+        stack1.push(56);
+        stack1.push(30);
+        stack1.push(70);
+        stack1.push(90);
+        stack1.print();
+
     }
 
 }
