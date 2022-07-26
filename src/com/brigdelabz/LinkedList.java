@@ -25,7 +25,6 @@ public class LinkedList {
         }
         tail = newNode;
     }
-
    public Node search(int searchData){
         Node temp = head;
         while (temp != null){
@@ -36,7 +35,6 @@ public class LinkedList {
         }
        return null;
    }
-
    public boolean insert(int searchData, int insertData){
       Node newNode = new Node(insertData);
       Node searchNode = search(searchData);
@@ -46,6 +44,11 @@ public class LinkedList {
           return true;
       }
       return false;
+   }
+   public int pop(){
+      int deleteData = head.data;
+      head = head.next;
+      return deleteData;
    }
     public void print(){
         Node temp = head;

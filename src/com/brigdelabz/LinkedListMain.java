@@ -21,9 +21,14 @@ public class LinkedListMain {
             System.out.println("element is found");
         }
         else{
-            System.out.println("element is not found");
+            System.out.println("element is not found and inserted");
         }
         linkedList1.insert(30,40);
         linkedList1.print();
+        System.out.println(" ");
+        System.out.println("deleting element");
+        linkedList1.pop();
+        linkedList1.print();
     }
+
 }
