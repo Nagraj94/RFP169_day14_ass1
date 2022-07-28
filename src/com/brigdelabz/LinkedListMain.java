@@ -6,10 +6,10 @@ public class LinkedListMain {
     public static void main(String[] args) {
         LinkedList linkedList1 = new LinkedList();
 //        System.out.println("adding element from back ");
-//        linkedList.addBack(70);
-//        linkedList.addBack(30);
-//        linkedList.addBack(56); //head
-//        linkedList.print();  //56->30->70->
+//        linkedList.pushLL(70);
+//        linkedList.pushLL(30);
+//        linkedList.pushLL(56); //head
+//        linkedList.printLL();  //56->30->70->
 
         System.out.println(" ");
         System.out.println("appending ");
