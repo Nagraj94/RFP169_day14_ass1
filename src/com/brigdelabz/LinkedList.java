@@ -4,7 +4,7 @@ public class LinkedList {
     Node head;
     Node tail;
 
-    public void push(int data){
+    public void pushLL(int data){
         Node newNode = new Node(data);
         if(head == null) {
             head = newNode;
